@@ -158,7 +158,7 @@ export default function Metro() {
                 </div>
                 <div className="text-xs" style={{ color: "rgba(255,255,255,0.45)" }}>
                   Placing Healthcare, Engineering, AI/IoT, SAP, Security &amp; Sales
-                  professionals for U.S. clients · Jan 2022 – Present · Remote
+                  professionals for U.S. clients · Jan 2022 – Present
                 </div>
               </div>
             </motion.div>

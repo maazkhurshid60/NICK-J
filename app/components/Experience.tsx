@@ -2,33 +2,26 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { Briefcase, MapPin, Calendar } from "lucide-react";
+import { Briefcase, Calendar } from "lucide-react";
 
 const jobs = [
   {
     company:   "Metro Associates",
     role:      "Recruiter",
-    type:      "Full-time · Remote",
-    location:  "United States",
+    type:      "Full-time",
     period:    "Jan 2022 – Present",
     duration:  "4 yrs 5 mos",
     current:   true,
     bullets: [
       "Recruited & placed professionals across Healthcare, hard/soft/middleware Engineering (Energy/Power/Motor Controls, Lab/Field/Scientific, Electronic Test & Measurement), Research Scientists, and Security Engineering.",
-      "Placed senior AI & IoT Engineers, SAP Engineers, IoT Developers, Web Developers, and Smart Agriculture specialists.",
-      "Sourced Product/Project Managers, Sales Engineers, Marketing Professionals, MarCom Managers, Brand Managers, and Global Marketing Managers.",
-      "Utilized ATS platforms JobDiva and Taleo to manage end-to-end applicant tracking processes.",
-      "Leveraged LinkedIn Recruiter/Premier, Indeed Recruiter, CareerBuilder, Avature, and referral networks to engage top talent.",
-      "Specialized in pulling top talent from competitors — consistently exceeding hiring targets.",
       "Fostered strong team culture through empathy, trust-building, and collaborative engagement.",
     ],
-    skills: ["RPO", "Global Talent Acquisition", "LinkedIn Recruiter", "JobDiva", "Taleo", "Healthcare", "Engineering"],
+    skills: ["RPO", "Global Talent Acquisition", "Healthcare", "Engineering"],
   },
   {
     company:   "SNV Elite Solutions (OPC) Pvt. Ltd.",
     role:      "Recruitment Specialist",
-    type:      "Full-time · Remote",
-    location:  "United States",
+    type:      "Full-time",
     period:    "Jun 2017 – 2022",
     duration:  "4 yrs 8 mos",
     current:   false,
@@ -36,12 +29,11 @@ const jobs = [
       "Recruited full-time positions for U.S. clients using targeted, industry-specific sourcing techniques.",
       "Utilized job boards, web searches, referrals, social media, and Boolean search to identify top-tier candidates.",
       "Screened and qualified candidates for alignment with job requirements before advancing to Hiring Manager reviews.",
-      "Maintained and updated ATS records with current candidate data across Monster, LinkedIn, CareerBuilder, Dice, and internal platforms.",
       "Executed bulk email outreach campaigns to engage passive candidates about new opportunities.",
       "Conducted in-depth candidate discussions focused on skills assessment, role alignment, and motivations.",
       "Consistently achieved daily targets contributing to successful monthly recruitment closures.",
     ],
-    skills: ["LinkedIn Recruiter", "Recruiting", "Boolean Search", "ATS", "CareerBuilder", "Dice", "Monster"],
+    skills: ["Recruiting", "Boolean Search", "Candidate Screening"],
   },
 ];
 
@@ -130,7 +122,6 @@ export default function Experience() {
                       </div>
                       <div className="flex flex-wrap gap-4 text-xs" style={{ color: "rgba(255,255,255,0.35)" }}>
                         <span className="flex items-center gap-1"><Briefcase size={11} />{job.type}</span>
-                        <span className="flex items-center gap-1"><MapPin size={11} />{job.location}</span>
                         <span className="flex items-center gap-1"><Calendar size={11} />{job.period} · {job.duration}</span>
                       </div>
                     </div>

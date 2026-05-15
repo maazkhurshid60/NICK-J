@@ -122,7 +122,7 @@ export default function Contact() {
           </div>
           <div className="flex items-center gap-2 text-sm" style={{ color: "rgba(255,255,255,0.35)" }}>
             <MapPin size={14} />
-            Udaipur, Rajasthan, India · Remote
+            Connecticut, USA
           </div>
         </motion.div>
 

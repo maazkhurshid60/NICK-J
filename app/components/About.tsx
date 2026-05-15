@@ -7,7 +7,7 @@ import { ArrowUpRight } from "lucide-react";
 const expertise = [
   { label: "Healthcare Recruitment",         pct: 90 },
   { label: "Engineering Talent Acquisition", pct: 92 },
-  { label: "ATS Management (JobDiva/Taleo)", pct: 88 },
+  { label: "ATS Management",                pct: 88 },
   { label: "AI & IoT Specialist Placement",  pct: 82 },
   { label: "Boolean & Advanced Sourcing",    pct: 86 },
   { label: "Global Talent Acquisition",      pct: 85 },
@@ -86,8 +86,7 @@ export default function About() {
               style={{ color: "var(--color-gray)" }}
             >
               I&apos;m a Recruitment Specialist with 8+ years of experience placing
-              top-tier professionals across Healthcare, Engineering, AI, IoT, SAP,
-              and Sales sectors — working remotely for U.S. clients from Udaipur, India.
+              top-tier professionals in Engineering working for U.S. clients.
             </motion.p>
 
             <motion.p
@@ -98,8 +97,7 @@ export default function About() {
               style={{ color: "var(--color-gray)" }}
             >
               Currently recruiting at Metro Associates, I specialize in sourcing
-              niche talent — from security engineers and IoT developers to global
-              marketing managers — using LinkedIn Recruiter, JobDiva, Taleo, and
+              niche talent from engineers to global marketing managers — using
               advanced Boolean search strategies.
             </motion.p>
 
@@ -112,12 +110,10 @@ export default function About() {
               style={{ background: "var(--color-white)", borderColor: "var(--color-border)" }}
             >
               {[
-                { label: "Name",       value: "Nick J." },
-                { label: "Role",       value: "Recruitment Specialist" },
-                { label: "Company",    value: "Metro Associates" },
-                { label: "Location",   value: "Udaipur, Rajasthan, India" },
-                { label: "Education",  value: "BA, HR — Delhi University" },
-                { label: "Status",     value: "Open to Opportunities" },
+                { label: "Name",      value: "Nick J." },
+                { label: "Role",      value: "Recruitment Specialist" },
+                { label: "Company",   value: "Metro Associates" },
+                { label: "Location",  value: "Connecticut, USA" },
               ].map(({ label, value }) => (
                 <div key={label}>
                   <div className="text-xs uppercase tracking-wider mb-0.5" style={{ color: "var(--color-gray)" }}>{label}</div>
@@ -168,8 +164,8 @@ export default function About() {
               {[
                 "Teamwork","Human Resources","Customer Experience",
                 "Analytical Skills","Recruiting","RPO",
-                "Global Talent Acquisition","LinkedIn Recruiter",
-                "Boolean Search","ATS","Candidate Sourcing","JobDiva","Taleo",
+                "Global Talent Acquisition","Boolean Search",
+                "ATS Management","Candidate Sourcing","Headhunting","Interviewing",
               ].map((tag) => (
                 <span
                   key={tag}

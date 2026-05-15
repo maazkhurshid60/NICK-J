@@ -5,12 +5,10 @@ import { useRef } from "react";
 import { GraduationCap, Award, BookOpen } from "lucide-react";
 
 const skills30 = [
-  "RPO", "Global Talent Acquisition", "LinkedIn Recruiter", "LinkedIn Premier",
-  "Indeed Recruiter", "CareerBuilder", "Dice", "Monster", "Avature",
-  "JobDiva", "Taleo", "Boolean Search", "Headhunting", "Candidate Screening",
-  "Candidate Evaluation", "ATS Management", "Bulk Email Outreach",
-  "Recruitment Process Outsourcing", "Talent Sourcing", "Interviewing",
-  "Human Resources (HR)", "Teamwork", "Customer Experience",
+  "RPO", "Global Talent Acquisition", "Boolean Search", "Headhunting",
+  "Candidate Screening", "Candidate Evaluation", "ATS Management",
+  "Bulk Email Outreach", "Recruitment Process Outsourcing", "Talent Sourcing",
+  "Interviewing", "Human Resources (HR)", "Teamwork", "Customer Experience",
   "Analytical Skills", "Recruiting", "Communication", "Confidentiality",
   "Data Management", "Target Achievement", "Stakeholder Coordination",
 ];
@@ -112,7 +110,7 @@ export default function Education() {
               className="text-xs font-bold uppercase tracking-widest mb-4 flex items-center gap-2"
               style={{ color: "var(--color-gray)" }}
             >
-              <span className="w-6 h-0.5 bg-current" /> Skills (30)
+              <span className="w-6 h-0.5 bg-current" /> Skills
             </motion.p>
 
             <motion.h3

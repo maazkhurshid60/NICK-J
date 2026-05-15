@@ -6,11 +6,11 @@ import { useRef } from "react";
 const toolCategories = [
   {
     name: "ATS Platforms",
-    items: ["JobDiva", "Taleo", "Avature", "Monster", "Internal ATS"],
+    items: ["Internal ATS", "ATS Management", "Applicant Tracking", "Candidate Database"],
   },
   {
     name: "Sourcing Tools",
-    items: ["LinkedIn Recruiter", "LinkedIn Premier", "Indeed Recruiter", "CareerBuilder", "Dice"],
+    items: ["Boolean Search", "Job Boards", "Social Media Sourcing", "Referral Networks", "Web Search"],
   },
   {
     name: "Recruitment Skills",

@@ -65,7 +65,7 @@ export default function Hero() {
                 className="text-xs font-bold uppercase tracking-[0.2em]"
                 style={{ color: "var(--color-gray)" }}
               >
-                Available for Remote Work
+                Recruitment Specialist · Connecticut, USA
               </span>
             </motion.div>
 
@@ -134,7 +134,7 @@ export default function Hero() {
                 Recruitment Specialist
               </span>
               <span className="text-sm font-medium" style={{ color: "var(--color-gray)" }}>
-                @ Metro Associates · Udaipur, India
+                @ Metro Associates · Connecticut, USA
               </span>
             </motion.div>
 
@@ -146,9 +146,10 @@ export default function Hero() {
               className="text-base leading-relaxed max-w-lg mb-8"
               style={{ color: "var(--color-gray)" }}
             >
-              8+ years placing niche professionals across Healthcare, Engineering,
-              AI, IoT &amp; Sales for U.S. clients — using LinkedIn Recruiter,
-              JobDiva, Taleo &amp; advanced Boolean sourcing.
+              8+ years placing top-tier professionals in Engineering for U.S.
+              clients. Currently recruiting at Metro Associates, sourcing niche
+              talent from engineers to global marketing managers using advanced
+              Boolean search strategies.
             </motion.p>
 
             {/* CTA row */}
@@ -284,7 +285,7 @@ export default function Hero() {
                 style={{ background: "var(--color-dark)" }}
               >
                 <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
-                <span className="text-xs font-semibold text-white">Open to work</span>
+                <span className="text-xs font-semibold text-white">Connecticut, USA</span>
               </motion.div>
 
             </div>
