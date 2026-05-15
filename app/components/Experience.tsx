@@ -117,9 +117,11 @@ export default function Experience() {
                           </span>
                         )}
                       </div>
-                      <div className="text-base font-semibold mb-2" style={{ color: "var(--color-yellow)" }}>
-                        {job.company}
-                      </div>
+                      {job.current && (
+                        <div className="text-base font-semibold mb-2" style={{ color: "var(--color-yellow)" }}>
+                          {job.company}
+                        </div>
+                      )}
                       <div className="flex flex-wrap gap-4 text-xs" style={{ color: "rgba(255,255,255,0.35)" }}>
                         <span className="flex items-center gap-1"><Briefcase size={11} />{job.type}</span>
                         <span className="flex items-center gap-1"><Calendar size={11} />{job.period} · {job.duration}</span>

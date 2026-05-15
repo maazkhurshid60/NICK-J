@@ -12,6 +12,7 @@ const metroStats = [
 ];
 
 const roles = [
+  // DOT
   "Transportation Engineers",
   "Bridge & Structural Designers",
   "Roadway & Traffic Engineers",
@@ -20,10 +21,20 @@ const roles = [
   "Construction Managers",
   "Project Controls Specialists",
   "Environmental Coordinators",
-  "Executive-Level Program Leaders",
-  "MEP Engineers",
   "Civil & Infrastructure Engineers",
   "Water & Hydrology Engineers",
+  "Executive-Level Program Leaders",
+  // MEP
+  "Mechanical Engineers (HVAC / Plumbing)",
+  "Electrical Engineers (Power & Lighting)",
+  "Fire Protection Engineers",
+  "Low Voltage & Systems Engineers",
+  "Commissioning Engineers",
+  "MEP Project Managers",
+  "BIM / MEP Modelers & Coordinators",
+  "Plumbing Design Engineers",
+  "Energy & Sustainability Engineers",
+  "MEP Construction Administrators",
 ];
 
 const offices = [
@@ -263,7 +274,7 @@ export default function Metro() {
               className="text-xs font-bold uppercase tracking-widest mb-3"
               style={{ color: "var(--color-yellow)" }}
             >
-              Transportation Engineering Roles We Place
+              DOT Recruiting &amp; MEP Types
             </motion.p>
             <motion.p
               initial={{ opacity: 0, y: 12 }}
@@ -272,9 +283,9 @@ export default function Metro() {
               className="text-sm leading-relaxed"
               style={{ color: "rgba(255,255,255,0.4)" }}
             >
-              Our DOT-focused recruiters place professionals across every major
-              transportation discipline — vetted for technical competency and
-              proven experience.
+              Placing professionals across DOT / transportation infrastructure
+              and MEP engineering — vetted for technical competency and
+              project-delivery experience.
             </motion.p>
           </div>
 
