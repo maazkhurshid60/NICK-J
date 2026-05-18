@@ -6,9 +6,9 @@ import { ArrowUpRight, MapPin, Users, Clock, CheckCircle } from "lucide-react";
 
 const metroStats = [
   { value: "1,598+", label: "Professionals Placed" },
-  { value: "45+",    label: "Years of Experience" },
-  { value: "8+",     label: "U.S. Office Locations" },
-  { value: "100%",   label: "DOT & AEC Focused" },
+  { value: "45+", label: "Years of Experience" },
+  { value: "8+", label: "U.S. Office Locations" },
+  { value: "100%", label: "DOT & AEC Focused" },
 ];
 
 const roles = [
@@ -67,7 +67,7 @@ function RoleCard({ role, index, inView }: { role: string; index: number; inView
 }
 
 export default function Metro() {
-  const ref    = useRef(null);
+  const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: "-80px" });
 
   return (
@@ -165,7 +165,7 @@ export default function Metro() {
               </div>
               <div>
                 <div className="text-sm font-bold text-white mb-0.5" style={{ fontFamily: "var(--font-heading)" }}>
-                  Nick J. — Recruiter at Metro Associates
+                  Nick Jain. — Recruiter at Metro Associates
                 </div>
                 <div className="text-xs" style={{ color: "rgba(255,255,255,0.45)" }}>
                   Placing Healthcare, Engineering, AI/IoT, SAP, Security &amp; Sales

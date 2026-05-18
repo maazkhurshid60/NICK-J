@@ -5,16 +5,16 @@ import { useRef } from "react";
 import { ArrowUpRight } from "lucide-react";
 
 const expertise = [
-  { label: "Healthcare Recruitment",         pct: 90 },
+  { label: "Healthcare Recruitment", pct: 90 },
   { label: "Engineering Talent Acquisition", pct: 92 },
-  { label: "ATS Management",                pct: 88 },
-  { label: "AI & IoT Specialist Placement",  pct: 82 },
-  { label: "Boolean & Advanced Sourcing",    pct: 86 },
-  { label: "Global Talent Acquisition",      pct: 85 },
+  { label: "ATS Management", pct: 88 },
+  { label: "AI & IoT Specialist Placement", pct: 82 },
+  { label: "Boolean & Advanced Sourcing", pct: 86 },
+  { label: "Global Talent Acquisition", pct: 85 },
 ];
 
 function Bar({ label, pct, index }: { label: string; pct: number; index: number }) {
-  const ref    = useRef(null);
+  const ref = useRef(null);
   const inView = useInView(ref, { once: true });
   return (
     <div ref={ref} className="space-y-2">
@@ -36,7 +36,7 @@ function Bar({ label, pct, index }: { label: string; pct: number; index: number 
 }
 
 export default function About() {
-  const ref    = useRef(null);
+  const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: "-80px" });
 
   return (
@@ -110,10 +110,10 @@ export default function About() {
               style={{ background: "var(--color-white)", borderColor: "var(--color-border)" }}
             >
               {[
-                { label: "Name",      value: "Nick J." },
-                { label: "Role",      value: "Recruitment Specialist" },
-                { label: "Company",   value: "Metro Associates" },
-                { label: "Location",  value: "Connecticut, USA" },
+                { label: "Name", value: "Nick Jain." },
+                { label: "Role", value: "Recruitment Specialist" },
+                { label: "Company", value: "Metro Associates" },
+                { label: "Location", value: "Connecticut, USA" },
               ].map(({ label, value }) => (
                 <div key={label}>
                   <div className="text-xs uppercase tracking-wider mb-0.5" style={{ color: "var(--color-gray)" }}>{label}</div>
@@ -162,10 +162,10 @@ export default function About() {
               className="flex flex-wrap gap-2"
             >
               {[
-                "Teamwork","Human Resources","Customer Experience",
-                "Analytical Skills","Recruiting","RPO",
-                "Global Talent Acquisition","Boolean Search",
-                "ATS Management","Candidate Sourcing","Headhunting","Interviewing",
+                "Teamwork", "Human Resources", "Customer Experience",
+                "Analytical Skills", "Recruiting", "RPO",
+                "Global Talent Acquisition", "Boolean Search",
+                "ATS Management", "Candidate Sourcing", "Headhunting", "Interviewing",
               ].map((tag) => (
                 <span
                   key={tag}

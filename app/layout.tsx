@@ -15,8 +15,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Nick J. — Recruitment Specialist",
-  description: "Nick J. is a seasoned Recruitment Specialist at Metro Associates with 8+ years placing top talent across Healthcare, Engineering, AI, IoT, and Sales globally.",
+  title: "Nick Jain. — Recruitment Specialist",
+  description: "Nick Jain. is a seasoned Recruitment Specialist at Metro Associates with 8+ years placing top talent across Healthcare, Engineering, AI, IoT, and Sales globally.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

@@ -6,8 +6,8 @@ import Image from "next/image";
 
 const LinkedInIcon = () => (
   <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
-    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/>
-    <circle cx="4" cy="4" r="2"/>
+    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z" />
+    <circle cx="4" cy="4" r="2" />
   </svg>
 );
 
@@ -196,9 +196,9 @@ export default function Hero() {
               style={{ borderColor: "var(--color-border)" }}
             >
               {[
-                { value: "8+",    label: "Years Recruiting" },
+                { value: "8+", label: "Years Recruiting" },
                 { value: "4,676", label: "LinkedIn Followers" },
-                { value: "2",     label: "Major Firms" },
+                { value: "2", label: "Major Firms" },
               ].map(({ value, label }) => (
                 <div key={label}>
                   <div
@@ -244,7 +244,7 @@ export default function Hero() {
               >
                 <Image
                   src="/Nick.jfif"
-                  alt="Nick J. — Recruitment Specialist"
+                  alt="Nick Jain. — Recruitment Specialist"
                   fill
                   className="object-cover object-top"
                   priority
