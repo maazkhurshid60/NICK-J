@@ -102,7 +102,7 @@ export default function Hero() {
                     color: "var(--color-dark)",
                   }}
                 >
-                  J
+                  JAIN
                 </h1>
                 {/* Yellow dot — the period */}
                 <div
