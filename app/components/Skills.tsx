@@ -18,7 +18,7 @@ const toolCategories = [
   },
   {
     name: "Industries",
-    items: ["Healthcare", "Engineering", "AI & IoT", "SAP", "Software/Web", "Sales & Marketing", "Agriculture"],
+    items: ["DOT", "MEP", "Healthcare", "Engineering", "Software/Web", "Sales & Marketing", "Agriculture"],
   },
   {
     name: "Soft Skills",

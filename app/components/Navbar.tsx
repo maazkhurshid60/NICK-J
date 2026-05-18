@@ -70,7 +70,7 @@ export default function Navbar() {
             fontFamily: "var(--font-heading)",
           }}
         >
-          Hire Me
+          Let Me Help
         </a>
 
         {/* Mobile hamburger */}
@@ -120,7 +120,7 @@ export default function Navbar() {
                 className="inline-flex items-center justify-center px-5 py-2.5 rounded-full text-sm font-bold mt-2"
                 style={{ background: "var(--color-yellow)", color: "var(--color-dark)" }}
               >
-                Hire Me
+                Let Me Help
               </a>
             </div>
           </motion.div>

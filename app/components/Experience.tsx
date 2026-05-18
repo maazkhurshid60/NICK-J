@@ -13,10 +13,10 @@ const jobs = [
     duration:  "4 yrs 5 mos",
     current:   true,
     bullets: [
-      "Recruited & placed professionals across Healthcare, hard/soft/middleware Engineering (Energy/Power/Motor Controls, Lab/Field/Scientific, Electronic Test & Measurement), Research Scientists, and Security Engineering.",
+      "Recruited & placed professionals across DOT / transportation infrastructure and MEP engineering disciplines — spanning Mechanical, Electrical, Plumbing, and Fire Protection.",
       "Fostered strong team culture through empathy, trust-building, and collaborative engagement.",
     ],
-    skills: ["RPO", "Global Talent Acquisition", "Healthcare", "Engineering"],
+    skills: ["DOT Recruiting", "MEP Placement", "RPO", "Global Talent Acquisition"],
   },
   {
     company:   "SNV Elite Solutions (OPC) Pvt. Ltd.",

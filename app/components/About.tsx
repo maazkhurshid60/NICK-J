@@ -5,10 +5,10 @@ import { useRef } from "react";
 import { ArrowUpRight } from "lucide-react";
 
 const expertise = [
-  { label: "Healthcare Recruitment", pct: 90 },
+  { label: "DOT Recruiting", pct: 90 },
+  { label: "MEP Placement", pct: 88 },
   { label: "Engineering Talent Acquisition", pct: 92 },
   { label: "ATS Management", pct: 88 },
-  { label: "AI & IoT Specialist Placement", pct: 82 },
   { label: "Boolean & Advanced Sourcing", pct: 86 },
   { label: "Global Talent Acquisition", pct: 85 },
 ];
