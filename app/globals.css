@@ -1,5 +1,34 @@
 @import "tailwindcss";
 
+/* NextivaCX / Simplify360 widget — force fixed viewport position & above all content */
+#simplify360-chat-widget,
+#s360-chat-widget,
+.s360-chat-launcher,
+.s360-widget-container,
+[id*="simplify360"],
+[id*="nextivacx"],
+[class*="simplify360"],
+[class*="nextivacx"],
+[id*="simplify360"] *,
+[id*="nextivacx"] *,
+[class*="simplify360"] *,
+[class*="nextivacx"] * {
+  z-index: 2147483647 !important;
+}
+
+#simplify360-chat-widget,
+#s360-chat-widget,
+.s360-chat-launcher,
+.s360-widget-container,
+[id*="simplify360"],
+[id*="nextivacx"],
+[class*="simplify360"],
+[class*="nextivacx"] {
+  position: fixed !important;
+  bottom: 24px !important;
+  right: 24px !important;
+}
+
 :root {
   --color-bg:     #ffffff;
   --color-dark:   #0b1f4a;

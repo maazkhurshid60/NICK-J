@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Space_Grotesk, Inter } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 const spaceGrotesk = Space_Grotesk({
@@ -22,7 +23,15 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${spaceGrotesk.variable} ${inter.variable}`}>
-      <body>{children}</body>
+      <body>
+        {children}
+        <Script
+          id="nextivacx-code-snippet"
+          src="https://d3po7etsbw5eiv.cloudfront.net/Simplify360Chat.js?key=NmEwYjYzMGE5NjFjZTYzZTcwOGQzNzBlfDQxNzIzNzA="
+          strategy="afterInteractive"
+        />
+        <Script id="hide-greeting" src="/hide-greeting.js" strategy="afterInteractive" />
+      </body>
     </html>
   );
 }
