@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer
@@ -9,9 +11,18 @@ export default function Footer() {
           <span className="text-sm font-bold text-white" style={{ fontFamily: "var(--font-heading)" }}>LM</span>
           <span className="w-1.5 h-1.5 rounded-full ml-0.5" style={{ background: "var(--color-yellow)" }} />
         </div>
-        <p className="text-xs" style={{ color: "rgba(255,255,255,0.25)" }}>
-          © {new Date().getFullYear()} Lavish Mahadev. All rights reserved.
-        </p>
+        <div className="flex items-center gap-4">
+          <p className="text-xs" style={{ color: "rgba(255,255,255,0.25)" }}>
+            © {new Date().getFullYear()} Nick Jain. All rights reserved.
+          </p>
+          <Link
+            href="/privacy"
+            className="text-xs hover:text-white transition-colors duration-200"
+            style={{ color: "rgba(255,255,255,0.25)" }}
+          >
+            Privacy Policy
+          </Link>
+        </div>
         <div className="flex items-center gap-5">
           {["#about","#projects","#skills","#contact"].map((href) => (
             <a
