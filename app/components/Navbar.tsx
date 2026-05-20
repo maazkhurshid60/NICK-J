@@ -3,13 +3,14 @@
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Briefcase } from "lucide-react";
+import Link from "next/link";
 
 const links = [
-  { label: "Home",           href: "#home" },
-  { label: "About",          href: "#about" },
-  { label: "Experience",     href: "#experience" },
-  { label: "Specializations",href: "#specializations" },
-  { label: "Contact",        href: "#contact" },
+  { label: "Home",            href: "/" },
+  { label: "About",           href: "/about" },
+  { label: "Experience",      href: "/experience" },
+  { label: "Specializations", href: "/specializations" },
+  { label: "Contact",         href: "/contact" },
 ];
 
 export default function Navbar() {
@@ -33,7 +34,7 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 h-18 flex items-center justify-between py-5">
         {/* Logo */}
-        <a href="#home" className="flex items-center gap-0.5">
+        <Link href="/" className="flex items-center gap-0.5">
           <span
             className="text-lg font-bold tracking-tight transition-colors duration-300"
             style={{ fontFamily: "var(--font-heading)", color: scrolled ? "#fff" : "var(--color-dark)" }}
@@ -41,12 +42,12 @@ export default function Navbar() {
             NJ
           </span>
           <span className="w-1.5 h-1.5 rounded-full ml-0.5" style={{ background: "var(--color-yellow)" }} />
-        </a>
+        </Link>
 
         {/* Desktop nav */}
         <nav className="hidden md:flex items-center gap-8">
           {links.map((l) => (
-            <a
+            <Link
               key={l.href}
               href={l.href}
               className="text-sm font-medium transition-colors duration-200 relative group"
@@ -57,7 +58,7 @@ export default function Navbar() {
                 className="absolute -bottom-1 left-0 w-0 h-0.5 group-hover:w-full transition-all duration-300"
                 style={{ background: "var(--color-yellow)" }}
               />
-            </a>
+            </Link>
           ))}
         </nav>
 
@@ -77,8 +78,8 @@ export default function Navbar() {
             <Briefcase size={14} />
             View Jobs
           </a>
-          <a
-            href="#contact"
+          <Link
+            href="/contact"
             className="inline-flex items-center gap-2 px-5 py-2 rounded-full text-sm font-semibold transition-all duration-200 hover:scale-105"
             style={{
               background: "var(--color-yellow)",
@@ -87,7 +88,7 @@ export default function Navbar() {
             }}
           >
             Let Me Help
-          </a>
+          </Link>
         </div>
 
         {/* Mobile hamburger */}
@@ -122,14 +123,14 @@ export default function Navbar() {
           >
             <div className="px-6 py-6 flex flex-col gap-5">
               {links.map((l) => (
-                <a
+                <Link
                   key={l.href}
                   href={l.href}
                   onClick={() => setMenuOpen(false)}
                   className="text-base font-medium text-white/80 hover:text-white"
                 >
                   {l.label}
-                </a>
+                </Link>
               ))}
               <a
                 href="https://careers.topechelon.com/portals/3a7f6fd3-7cf7-447c-a20f-2354eb2031df"
@@ -141,14 +142,14 @@ export default function Navbar() {
                 <Briefcase size={14} />
                 View Jobs
               </a>
-              <a
-                href="#contact"
+              <Link
+                href="/contact"
                 onClick={() => setMenuOpen(false)}
                 className="inline-flex items-center justify-center px-5 py-2.5 rounded-full text-sm font-bold"
                 style={{ background: "var(--color-yellow)", color: "var(--color-dark)" }}
               >
                 Let Me Help
-              </a>
+              </Link>
             </div>
           </motion.div>
         )}

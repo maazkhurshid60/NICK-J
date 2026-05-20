@@ -30,7 +30,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           src="https://d3po7etsbw5eiv.cloudfront.net/Simplify360Chat.js?key=NmEwYjYzMGE5NjFjZTYzZTcwOGQzNzBlfDQxNzIzNzA="
           strategy="afterInteractive"
         />
-        <Script id="hide-greeting" src="/hide-greeting.js" strategy="afterInteractive" />
       </body>
     </html>
   );

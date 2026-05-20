@@ -123,7 +123,7 @@ export default function About() {
             </motion.div>
 
             <motion.a
-              href="#contact"
+              href="/contact"
               initial={{ opacity: 0 }}
               animate={inView ? { opacity: 1 } : {}}
               transition={{ duration: 0.5, delay: 0.45 }}
