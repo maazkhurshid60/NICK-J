@@ -45,10 +45,10 @@ export default function Hero() {
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 w-full py-4">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 items-center pr-0 lg:pr-16">
 
           {/* ── LEFT COLUMN ── */}
-          <div className="lg:col-span-7 flex flex-col">
+          <div className="lg:col-span-7 flex flex-col pr-0 lg:pr-8">
 
             {/* Eyebrow */}
             <motion.div
@@ -172,18 +172,17 @@ export default function Hero() {
                 <ArrowUpRight size={15} />
               </a>
               <a
-                href="https://www.linkedin.com/in/lavish-mahadev007/"
+                href="https://metroassoc.com/elementor-5338/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-bold text-sm border-2 transition-all duration-200 hover:border-yellow-400 hover:bg-yellow-400 group"
+                className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-bold text-sm border-2 transition-all duration-200 hover:border-yellow-400 hover:bg-yellow-400"
                 style={{
                   borderColor: "var(--color-border)",
                   color: "var(--color-dark)",
                   fontFamily: "var(--font-heading)",
                 }}
               >
-                <LinkedInIcon />
-                LinkedIn
+                View Open Roles
               </a>
             </motion.div>
 
@@ -218,7 +217,7 @@ export default function Hero() {
             initial={{ opacity: 0, scale: 0.9, x: 40 }}
             animate={{ opacity: 1, scale: 1, x: 0 }}
             transition={{ duration: 0.9, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
-            className="lg:col-span-5 flex justify-center lg:justify-end"
+            className="lg:col-span-5 flex justify-center"
           >
             <div className="relative">
               {/* Yellow square behind photo */}

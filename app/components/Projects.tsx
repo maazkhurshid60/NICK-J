@@ -3,62 +3,76 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import {
-  HeartPulse, Zap, Brain, ShieldCheck,
+  Truck, Wrench, HeartPulse, Zap, Brain, ShieldCheck,
   Code2, BarChart3, Megaphone, Leaf,
 } from "lucide-react";
 
 const specializations = [
   {
     number: "01",
+    Icon: Truck,
+    title: "DOT / Transportation",
+    description: "Recruiting licensed professionals for DOT agencies, infrastructure firms, and transportation contractors across the United States.",
+    tags: ["DOT Agencies", "Infrastructure", "Transportation", "Civil/Highway"],
+  },
+  {
+    number: "02",
+    Icon: Wrench,
+    title: "MEP Engineering",
+    description: "Placing Mechanical, Electrical, Plumbing, and Fire Protection engineers for AEC firms and construction consultancies nationwide.",
+    tags: ["Mechanical", "Electrical", "Plumbing", "Fire Protection"],
+  },
+  {
+    number: "03",
     Icon: HeartPulse,
     title: "Healthcare",
     description: "Placing clinical, medical device, and healthcare IT professionals into leading health systems and life sciences companies nationwide.",
     tags: ["Clinical", "Medical Devices", "Life Sciences", "Health IT"],
   },
   {
-    number: "02",
+    number: "04",
     Icon: Zap,
     title: "Engineering",
     description: "Hard/soft/middleware engineering — Energy, Power, Motor Controls, Lab/Field/Scientific instruments, and Electronic Test & Measurement.",
     tags: ["Energy/Power", "Motor Controls", "Electronics", "Lab/Scientific"],
   },
   {
-    number: "03",
+    number: "05",
     Icon: Brain,
     title: "AI & IoT",
     description: "Sourcing senior AI engineers, IoT developers, and data scientists for cutting-edge technology companies and smart infrastructure projects.",
     tags: ["AI Engineers", "IoT Developers", "Data Science", "Smart Ag"],
   },
   {
-    number: "04",
+    number: "06",
     Icon: ShieldCheck,
     title: "Security Engineering",
     description: "Recruiting security-cleared professionals and cyber/physical security engineers for defense and government-adjacent programs.",
     tags: ["Security Cleared", "Cybersecurity", "Defense", "SAP"],
   },
   {
-    number: "05",
+    number: "07",
     Icon: Code2,
     title: "Software & Web",
     description: "Full-stack developers, DevOps engineers, and cloud architects placed with innovative software companies and enterprise IT departments.",
     tags: ["Full-Stack", "DevOps", "Cloud", "Web Dev"],
   },
   {
-    number: "06",
+    number: "08",
     Icon: Megaphone,
     title: "Sales & Marketing",
     description: "Sales Engineers, Marketing Professionals, MarCom Managers, Brand Managers, and Global Marketing Managers placed at Fortune-level firms.",
     tags: ["Sales Engineers", "Brand Managers", "MarCom", "Global Marketing"],
   },
   {
-    number: "07",
+    number: "09",
     Icon: BarChart3,
     title: "Product & Project Mgmt",
     description: "Placing product managers, project managers, and business analysts with expertise in power conversion and complex manufacturing programs.",
     tags: ["Product Managers", "Project Managers", "Business Analysis"],
   },
   {
-    number: "08",
+    number: "10",
     Icon: Leaf,
     title: "Smart Agriculture",
     description: "Niche recruiting for AgTech companies seeking IoT-enabled precision agriculture talent, from field engineers to software developers.",
@@ -110,7 +124,7 @@ export default function Specializations() {
             className="text-sm max-w-xs"
             style={{ color: "var(--color-gray)" }}
           >
-            8+ verticals covered. Niche talent sourced across the U.S. — remotely.
+            10 verticals covered. DOT & MEP first — niche talent sourced across the U.S.
           </motion.p>
         </div>
 
