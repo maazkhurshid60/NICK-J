@@ -24,12 +24,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${spaceGrotesk.variable} ${inter.variable}`}>
       <body>
+
         {children}
-        <Script
+        <script
           id="nextivacx-code-snippet"
-          src="https://d3po7etsbw5eiv.cloudfront.net/Simplify360Chat.js?key=NmEwZjA4YjU3MjcxYzg4MWY3YjMwOGI0fDQxNzIzNzA="
-          strategy="afterInteractive"
-        />
+          src="https://d3po7etsbw5eiv.cloudfront.net/Simplify360Chat.js?key=NmExNGIyNjg3YTI0NTU5ODhlZGIzYzNjfDQxNzIzNzA=">
+        </script>
       </body>
     </html>
   );
