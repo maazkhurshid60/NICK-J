@@ -26,10 +26,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
 
         {children}
-        <script
+        {/* <script
           id="nextivacx-code-snippet"
           src="https://d3po7etsbw5eiv.cloudfront.net/Simplify360Chat.js?key=NmExNGIyNjg3YTI0NTU5ODhlZGIzYzNjfDQxNzIzNzA=">
-        </script>
+        </script> */}
+
+        <Script
+          id="nextivacx-code-snippet"
+          src="https://d3po7etsbw5eiv.cloudfront.net/Simplify360Chat.js?key=NmEwNWU5OTE5NjFjZTYzZTcwOGFmZWU1fDQxNzIzNzA="
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
