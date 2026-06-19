@@ -3,6 +3,7 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { ArrowUpRight, MapPin, Users, Clock, CheckCircle } from "lucide-react";
+import CountUp from "./CountUp";
 
 const metroStats = [
   { value: "1,598+", label: "Professionals Placed" },
@@ -220,12 +221,11 @@ export default function Metro() {
                   className="rounded-2xl p-5 border border-white/10"
                   style={{ background: "rgba(255,255,255,0.05)" }}
                 >
-                  <div
-                    className="text-3xl lg:text-4xl font-black text-white mb-1"
+                  <CountUp
+                    value={s.value}
+                    className="block text-3xl lg:text-4xl font-black text-white mb-1"
                     style={{ fontFamily: "var(--font-heading)", color: "var(--color-yellow)" }}
-                  >
-                    {s.value}
-                  </div>
+                  />
                   <div className="text-xs font-medium" style={{ color: "rgba(255,255,255,0.45)" }}>
                     {s.label}
                   </div>

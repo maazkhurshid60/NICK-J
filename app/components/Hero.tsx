@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
+import CountUp from "./CountUp";
 
 const LinkedInIcon = () => (
   <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
@@ -200,12 +201,11 @@ export default function Hero() {
                 { value: "2", label: "Major Firms" },
               ].map(({ value, label }) => (
                 <div key={label}>
-                  <div
-                    className="text-3xl font-black leading-none mb-1"
+                  <CountUp
+                    value={value}
+                    className="block text-3xl font-black leading-none mb-1"
                     style={{ fontFamily: "var(--font-heading)", color: "var(--color-dark)" }}
-                  >
-                    {value}
-                  </div>
+                  />
                   <div className="text-xs" style={{ color: "var(--color-gray)" }}>{label}</div>
                 </div>
               ))}
