@@ -2,9 +2,9 @@ import Script from "next/script";
 
 // Simplify360 live chat. Rendered from the root layout so it is available on
 // every route — Next.js loads it once and keeps it across client navigation.
-// This site's own Simplify360 account, so chats land in its inbox rather than
-// the Patrick Novick one.
-const S360_KEY = "NmEwZjA4YjU3MjcxYzg4MWY3YjMwOGI0fDQxNzIzNzA=";
+// Every public route on this site should show it, so there is no route gating
+// here (unlike the Patrick Novick site, which hides it on its admin pages).
+const S360_KEY = "NmEwNWU5OTE5NjFjZTYzZTcwOGFmZWU1fDQxNzIzNzA=";
 
 export default function ChatWidget() {
   return (
