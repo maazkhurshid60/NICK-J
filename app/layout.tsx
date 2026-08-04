@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Space_Grotesk, Inter } from "next/font/google";
-import Script from "next/script";
 import "./globals.css";
+import ChatWidget from "./components/ChatWidget";
 
 const spaceGrotesk = Space_Grotesk({
   variable: "--font-heading",
@@ -24,17 +24,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${spaceGrotesk.variable} ${inter.variable}`}>
       <body>
-
         {children}
-        {/* <script
-          id="nextivacx-code-snippet"
-          src="https://d3po7etsbw5eiv.cloudfront.net/Simplify360Chat.js?key=NmExNGIyNjg3YTI0NTU5ODhlZGIzYzNjfDQxNzIzNzA=">
-        </script> */}
-
-        <script
-          id="nextivacx-code-snippet"
-          src="https://d3po7etsbw5eiv.cloudfront.net/Simplify360Chat.js?key=NmEwZjA4YjU3MjcxYzg4MWY3YjMwOGI0fDQxNzIzNzA=">
-        </script>
+        <ChatWidget />
       </body>
     </html>
   );
