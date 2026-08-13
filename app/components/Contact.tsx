@@ -85,12 +85,12 @@ export default function Contact() {
           className="flex flex-wrap items-center justify-center gap-4 mb-14"
         >
           <a
-            href="tel:+12392555921"
+            href="tel:+13125001878"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-bold text-sm border border-white/20 text-white hover:border-yellow-400 hover:text-yellow-400 transition-all duration-200"
             style={{ fontFamily: "var(--font-heading)" }}
           >
             <Phone size={15} />
-            +1 (239) 255-5921
+            +1 (312) 500-1878
           </a>
           <a
             href="mailto:nick@metroassoc.com"
@@ -126,7 +126,7 @@ export default function Contact() {
         >
           <div className="flex items-center gap-2 text-sm" style={{ color: "rgba(255,255,255,0.35)" }}>
             <Phone size={14} />
-            +1 (239) 255-5921
+            +1 (312) 500-1878
           </div>
           <div className="flex items-center gap-2 text-sm" style={{ color: "rgba(255,255,255,0.35)" }}>
             <Mail size={14} />
