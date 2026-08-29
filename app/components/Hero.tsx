@@ -153,6 +153,31 @@ export default function Hero() {
               Boolean search strategies.
             </motion.p>
 
+            {/* Trust badges */}
+            <motion.ul
+              initial={{ opacity: 0, y: 16 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.5 }}
+              className="flex flex-wrap gap-x-6 gap-y-2 mb-8"
+            >
+              {[
+                "Always remain 100% free for Job Seekers!",
+                "Focus strictly on engineering, architecture, and construction",
+              ].map((item) => (
+                <li
+                  key={item}
+                  className="flex items-center gap-2 text-sm font-medium"
+                  style={{ color: "var(--color-gray)" }}
+                >
+                  <span
+                    className="inline-block h-1.5 w-1.5 rounded-full"
+                    style={{ background: "var(--color-yellow)" }}
+                  />
+                  {item}
+                </li>
+              ))}
+            </motion.ul>
+
             {/* CTA row */}
             <motion.div
               initial={{ opacity: 0, y: 16 }}
@@ -173,7 +198,7 @@ export default function Hero() {
                 <ArrowUpRight size={15} />
               </a>
               <a
-                href="https://metroassoc.com/elementor-5338/"
+                href="https://careers.topechelon.com/portals/3a7f6fd3-7cf7-447c-a20f-2354eb2031df"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-bold text-sm border-2 transition-all duration-200 hover:border-yellow-400 hover:bg-yellow-400"
