@@ -1,6 +1,8 @@
 import { MetadataRoute } from "next";
 
-const BASE_URL = "https://nickjain.org";
+// Must be the "www" host: the apex redirects to www at the domain level, so
+// an apex BASE_URL would make every sitemap URL redirect on first fetch.
+const BASE_URL = "https://www.nickjain.org";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [

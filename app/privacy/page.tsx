@@ -3,6 +3,7 @@ import Link from "next/link";
 export const metadata = {
   title: "Privacy Policy — Nick Jain",
   description: "Privacy Policy for NickJain.org",
+  alternates: { canonical: "/privacy" },
 };
 
 const sections = [
