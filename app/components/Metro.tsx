@@ -196,7 +196,7 @@ export default function Metro() {
                 <ArrowUpRight size={14} />
               </a>
               <a
-                href="https://jobs.metroassoc.com/portals/3a7f6fd3-7cf7-447c-a20f-2354eb2031df"
+                href="https://www.metroassoc.com/careers"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-sm font-bold border border-white/20 text-white transition-all duration-200 hover:border-yellow-400 hover:text-yellow-400"

@@ -35,7 +35,7 @@ export default function Footer() {
             </a>
           ))}
           <a
-            href="https://jobs.metroassoc.com/portals/3a7f6fd3-7cf7-447c-a20f-2354eb2031df"
+            href="https://www.metroassoc.com/careers"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5 px-4 py-1.5 rounded-full text-xs font-bold transition-all duration-200 hover:scale-105"
