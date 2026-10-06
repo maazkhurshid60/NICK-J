@@ -4,6 +4,7 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { ArrowUpRight, MapPin, Users, Clock, CheckCircle } from "lucide-react";
 import CountUp from "./CountUp";
+import { CandidateTrust } from "./CandidateTrust";
 
 const metroStats = [
   { value: "1,598+", label: "Professionals Placed" },
@@ -174,6 +175,12 @@ export default function Metro() {
                 </div>
               </div>
             </motion.div>
+
+            {/* The jobs CTA is the other place a candidate decides whether to
+                click, and the hero statement is a full screen behind them by
+                the time they reach it. Quieter size here: this block already
+                has a heading and a paragraph of its own. */}
+            <CandidateTrust tone="dark" size="section" className="mb-5" />
 
             <motion.div
               initial={{ opacity: 0 }}

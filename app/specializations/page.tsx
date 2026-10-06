@@ -3,6 +3,7 @@ import Specializations from "../components/Projects";
 import Education from "../components/Education";
 import Skills from "../components/Skills";
 import Footer from "../components/Footer";
+import { CandidateTrust } from "../components/CandidateTrust";
 
 export const metadata = {
   title: "Specializations — Nick Jain",
@@ -26,6 +27,16 @@ export default function SpecializationsPage() {
       <Navbar />
       <main className="pt-20">
         <Specializations />
+
+        {/* The one page besides the homepage that search traffic lands on: its
+            keywords are discipline searches, so a candidate can arrive here
+            without ever passing the hero. Set in the component's own container
+            rather than inside Specializations, which the homepage also renders
+            and where it would be a duplicate. */}
+        <section className="max-w-6xl mx-auto px-6 pb-6">
+          <CandidateTrust size="section" />
+        </section>
+
         <Education />
         <Skills />
       </main>

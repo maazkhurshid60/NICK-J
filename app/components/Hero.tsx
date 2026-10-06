@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
 import CountUp from "./CountUp";
+import { CandidateTrust } from "./CandidateTrust";
 
 const LinkedInIcon = () => (
   <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
@@ -153,30 +154,21 @@ export default function Hero() {
               Boolean search strategies.
             </motion.p>
 
-            {/* Trust badges */}
-            <motion.ul
+            {/* Trust statement.
+
+                Was a pair of 14px gray bullets carrying exactly these two
+                facts, set at the same weight as every other supporting
+                detail on the page. Promoted rather than duplicated: repeating
+                the same two sentences 20px apart would have read as an error,
+                and these were the only copies on the site. */}
+            <motion.div
               initial={{ opacity: 0, y: 16 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.5 }}
-              className="flex flex-wrap gap-x-6 gap-y-2 mb-8"
+              className="mb-5"
             >
-              {[
-                "Always remain 100% free for Job Seekers!",
-                "Focus strictly on engineering, architecture, and construction",
-              ].map((item) => (
-                <li
-                  key={item}
-                  className="flex items-center gap-2 text-sm font-medium"
-                  style={{ color: "var(--color-gray)" }}
-                >
-                  <span
-                    className="inline-block h-1.5 w-1.5 rounded-full"
-                    style={{ background: "var(--color-yellow)" }}
-                  />
-                  {item}
-                </li>
-              ))}
-            </motion.ul>
+              <CandidateTrust />
+            </motion.div>
 
             {/* CTA row */}
             <motion.div
