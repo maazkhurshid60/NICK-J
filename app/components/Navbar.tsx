@@ -65,7 +65,7 @@ export default function Navbar() {
         {/* CTA buttons */}
         <div className="hidden md:flex items-center gap-3">
           <a
-            href="https://careers.topechelon.com/portals/3a7f6fd3-7cf7-447c-a20f-2354eb2031df"
+            href="https://jobs.metroassoc.com/portals/3a7f6fd3-7cf7-447c-a20f-2354eb2031df"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-5 py-2 rounded-full text-sm font-semibold border transition-all duration-200 hover:scale-105"
@@ -133,7 +133,7 @@ export default function Navbar() {
                 </Link>
               ))}
               <a
-                href="https://careers.topechelon.com/portals/3a7f6fd3-7cf7-447c-a20f-2354eb2031df"
+                href="https://jobs.metroassoc.com/portals/3a7f6fd3-7cf7-447c-a20f-2354eb2031df"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setMenuOpen(false)}

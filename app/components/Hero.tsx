@@ -198,7 +198,7 @@ export default function Hero() {
                 <ArrowUpRight size={15} />
               </a>
               <a
-                href="https://careers.topechelon.com/portals/3a7f6fd3-7cf7-447c-a20f-2354eb2031df"
+                href="https://jobs.metroassoc.com/portals/3a7f6fd3-7cf7-447c-a20f-2354eb2031df"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full font-bold text-sm border-2 transition-all duration-200 hover:border-yellow-400 hover:bg-yellow-400"

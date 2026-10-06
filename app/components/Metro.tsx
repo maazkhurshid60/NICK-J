@@ -196,7 +196,7 @@ export default function Metro() {
                 <ArrowUpRight size={14} />
               </a>
               <a
-                href="https://careers.topechelon.com/portals/3a7f6fd3-7cf7-447c-a20f-2354eb2031df"
+                href="https://jobs.metroassoc.com/portals/3a7f6fd3-7cf7-447c-a20f-2354eb2031df"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-sm font-bold border border-white/20 text-white transition-all duration-200 hover:border-yellow-400 hover:text-yellow-400"
@@ -212,7 +212,7 @@ export default function Metro() {
             <p className="mt-5 text-sm leading-6" style={{ color: "rgba(255,255,255,0.55)" }}>
               Don&apos;t see the job you&apos;re looking for?{" "}
               <a
-                href="https://careers.topechelon.com/portals/3a7f6fd3-7cf7-447c-a20f-2354eb2031df/apply"
+                href="https://jobs.metroassoc.com/portals/3a7f6fd3-7cf7-447c-a20f-2354eb2031df/apply"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-bold text-white underline underline-offset-4 transition-colors hover:text-yellow-400"
